@@ -1,0 +1,217 @@
+INITIAL PSYCHIATRIC EVALUATION
+(Epic SmartPhrase: .PSYINTAKE -- paste into SmartPhrase editor. @...@ = SmartLink, {...:ID} = SmartList, *** = wildcard, F2 jumps between wildcards. See BUILD_GUIDE.md.)
+
+Date of service: @TD@
+Patient: @NAME@   DOB: @DOB@   MRN: @MRN@
+PCP: @PCP@   Referring provider/source: ***
+Visit type: {In-person/Telehealth video/Telehealth audio-only:***}
+Visit participants: {Patient only/Patient and ***:***}
+Collateral sources reviewed/contacted: {None/Prior records/Family/Therapist/PCP/Pharmacy/PDMP:***}
+Reliability of history: {Good/Fair/Limited/Poor:***}
+Chart reviewed prior to visit: Yes. Outside records reviewed: ***
+
+------------------------------------------------------------
+TELEHEALTH ATTESTATION (delete if in person)
+Patient location (city/state): ***   Provider location: ***
+Patient verbally consented to telehealth. Identity verified with two identifiers. Emergency contact and local emergency plan confirmed: ***. Platform: ***. Alternative of in-person visit offered.
+------------------------------------------------------------
+
+@NAME@ is a @AGE@ @SEX@ presenting for an initial psychiatric evaluation.
+
+CHIEF COMPLAINT: "***"
+
+HISTORY OF PRESENT ILLNESS
+Patient is a @AGE@ @SEX@ with a past psychiatric history significant for *** presenting for ***.
+
+Onset/timeline: ***   Precipitants/stressors: ***   Course (episodic vs continuous, progression): ***
+Functional impact (work/school, relationships, ADLs, self-care): ***
+
+Depressive symptoms: {Denies/Endorses:***} Sleep ***; interest ***; guilt ***; energy ***; concentration ***; appetite/weight ***; psychomotor ***.
+Anxiety symptoms: {Denies/Endorses:***} Worry ***; panic attacks ***; avoidance/phobias ***; social anxiety ***; OCD symptoms ***.
+Trauma/PTSD symptoms: {Denies/Endorses:***} Intrusions ***; avoidance ***; negative cognitions/mood ***; hyperarousal ***.
+Mania/hypomania: Denies symptoms of mood activation or mania. {Edit if positive: decreased need for sleep, grandiosity, pressured speech, racing thoughts, risky behavior, spending:***}
+Psychosis: Denies auditory/visual hallucinations or perceptual disturbances. Denies paranoia. No delusions elicited. {Edit if positive:***}
+Attention/executive function: {Denies/Endorses:***} Childhood onset (before age 12) ***.
+Eating, sleep, somatic, and cognitive concerns: ***
+Personality/interpersonal patterns: ***
+
+Pertinent safety review:
+Currently denies suicidal ideation, intent, plan, preparatory behavior, or urge to self-harm. Denies homicidal ideation. Remains future and goal oriented. {Edit if positive -- document ideation, frequency, plan, intent, protective factors, and C-SSRS result:***}
+Protective factors: ***
+
+Standardized measures today (enter or pull in if scanned/flowsheet):
+PHQ-9: ***   GAD-7: ***   C-SSRS screen: ***   MDQ: ***   PC-PTSD-5: ***   AUDIT-C: ***   DAST-10: ***   ASRS: ***   Other: ***
+Prior scores on file: @LASTPHQ9@ / @LASTGAD7@ [site-dependent -- delete if not built]
+
+PAST PSYCHIATRIC HISTORY
+Previous diagnoses: ***   Age at first symptoms/treatment: ***
+Outpatient treatment/therapy history (modalities, response): ***
+Psychiatric hospitalizations (number, last date, facility, voluntary/involuntary): {None/***}
+Residential/IOP/PHP/ECT/TMS/ketamine-esketamine trials: {None/***}
+Suicide attempts: {Patient denies history of suicide attempts/***}  Suicidal ideation history: {Denies/***}
+Self-injurious behavior: {Denies/***}
+History of violence/aggression/homicidal ideation: {Denies/***}
+History of mood activation or mania: {Denies/***}
+History of perceptual disturbances/paranoia: {Denies/***}
+Trauma/abuse history (physical, sexual, emotional, neglect, combat, ACEs): {Denies/Deferred/***}
+Prior medication trials (drug, dose, duration, response, side effects, reason stopped):
+***
+Treatment resistance / adverse reactions (e.g., serotonin syndrome, activation, EPS, rash, QTc): ***
+
+PAST MEDICAL HISTORY
+@PMH@
+Neurologic history (head injury/TBI with LOC, seizures, stroke, migraine): ***
+Cardiac history/syncope/family history of sudden cardiac death: ***
+Endocrine/metabolic/thyroid/sleep apnea/HIV/hepatic/renal disease: ***
+Surgical history: @PSH@
+Pregnancy status/breastfeeding/contraception (if applicable): {N/A/Not pregnant, using ***/Pregnant, EGA ***/Breastfeeding/Planning pregnancy:***}
+LMP: ***
+Vitals (if available): @VS@   Height/Weight/BMI: ***
+Recent labs/ECG: @LABRCNT@ Last ECG/QTc: ***
+
+FAMILY PSYCHIATRIC HISTORY
+{Reviewed in chart/Patient reports/Unknown:***} Depression ***; bipolar disorder ***; schizophrenia/psychosis ***; anxiety ***; ADHD ***; substance use ***; suicide/attempts ***; dementia ***; other ***.
+Family history (Epic): @FH@
+
+SUBSTANCE USE HISTORY
+Alcohol: ***   Tobacco/nicotine/vaping: ***   Cannabis: ***   Stimulants (cocaine/amphetamines): ***   Opioids: ***   Sedatives/benzodiazepines: ***   Hallucinogens/other: ***   Caffeine: ***
+Quantity/frequency/last use: ***   History of withdrawal (seizures/DTs): ***   Treatment/recovery history/periods of sobriety: ***
+Misuse of prescribed medications: {Denies/***}   IV use: {Denies/***}
+PDMP reviewed today: {Yes, findings: ***/Not applicable (no controlled substances prescribed)/Unable to access: ***}
+Urine drug screen: {Not indicated/Ordered/Result ***}
+
+SOCIAL / DEVELOPMENTAL HISTORY
+@SOCHX@
+Developmental/early history (birthplace, complications, milestones, childhood home): ***
+Education/learning disability/IEP: ***
+Occupation/employment/disability/finances: ***
+Relationship status/children/supports/living situation: ***
+Military service/combat exposure: {None/***}
+Legal history (arrests, probation, pending charges, custody): {Denies/***}
+Access to firearms or other lethal means: {Denies/Yes, type and storage ***} Lethal means counseling: ***
+Spirituality/culture/identity (including sexual orientation, gender identity): ***
+Strengths/hobbies/goals: ***
+Exposure to violence or safety concerns at home: ***
+Children/dependents/pets in the home (safety, child protective concerns): ***
+
+ALLERGIES
+@ALLERGY@
+
+CURRENT MEDICATIONS
+@CMEDS@
+Over-the-counter/supplements/herbals (St. John's wort, melatonin, etc.): ***
+Medication adherence/pharmacy: ***   Dose above recognized psychiatric standards: ***   More than two medications in same category: ***
+
+REVIEW OF SYSTEMS (pertinent)
+Constitutional ***; cardiovascular ***; neurologic ***; GI ***; sleep ***; sexual function ***; other ***. All other systems reviewed and negative unless noted.
+
+MENTAL STATUS EXAMINATION
+Orientation: {Alert and oriented to person, place, time/***}
+Appearance: {Appropriately dressed, well kempt/***}  Apparent age: ***  Eye contact: {Good/Fair/Poor:***}
+Behavior/manner: {Calm and cooperative/***}
+Motor: {No psychomotor agitation or retardation, no tremor/tics/abnormal movements/***}
+Speech: {Clear, fluent, spontaneous, regular rate and rhythm/***}
+Mood: "***"
+Affect: {Euthymic/Dysthymic/Anxious/Constricted/Flat/Labile/Irritable/Congruent with mood:***}
+Thought process: {Linear, logical, organized/Tangential/Circumstantial/Disorganized:***}
+Thought content: {Devoid of SI/HI, delusions, obsessions/***}
+Perception: {No perceptual disturbances, denies AVH/***}
+Suicidal ideation: {Denies/***}   Homicidal ideation: {Denies/***}
+Attention: {Fair/Good/Impaired:***}  Concentration: {Fair/Good/Impaired:***}
+Recent memory: {Intact/***}  Remote memory: {Intact/***}
+Fund of knowledge: {Appropriate/***}
+Insight: {Good/Fair/Limited/Poor/Variable:***}  Judgment: {Good/Fair/Limited/Poor/Variable:***}
+Impulse control: {Adequate for the interview/***}
+Cognitive screen (if indicated): {MoCA/MMSE/Mini-Cog:***}
+
+ASSESSMENT AND PLAN
+
+Diagnosis (DSM-5-TR / ICD-10-CM):
+@DIAG@
+***
+
+Formulation:
+@NAME@ is a @AGE@ @SEX@ with a past psychiatric history as described above presenting with ***.
+Biological: ***   Psychological: ***   Social: ***   Predisposing/precipitating/perpetuating/protective: ***
+Differential diagnosis considered: ***
+Medical and substance contributors considered (thyroid, B12, anemia, sleep apnea, medications, substances): ***
+
+Risk assessment:
+Static/chronic risk factors: ***   Dynamic/modifiable risk factors: ***   Protective factors: ***
+Current suicide risk: {Low/Moderate/High:***}   Violence risk: {Low/Moderate/High:***}
+Currently the patient is with a stable mood and in no acute distress, without signs or symptoms of acute or imminent psychiatric decompensation. Remains goal and future oriented. No acute safety concerns at this time and can be safely treated in an outpatient environment. {Edit if not:***}
+Safety plan reviewed/created: {Yes/Not indicated/Declined:***}   Lethal means counseling: ***
+
+Plan:
+Medications:
+ - {Start/Continue/Increase/Decrease/Taper/Discontinue/No medication changes today:***} ***
+ - Rationale and target symptoms: ***
+ - Will continue to monitor for side effects and tolerability with an aim of titrating medications to the lowest effective dose.
+Labs/studies/monitoring ordered: {None/TSH/CBC/CMP/lipids/A1c or fasting glucose/prolactin/lithium level/valproate level/B12/vitamin D/UDS/pregnancy test/ECG/other:***}
+Baseline/ongoing monitoring (as indicated):
+ - Antipsychotic: weight, BMI, waist, BP, fasting glucose/A1c, lipids at baseline, 12 weeks, then annually; AIMS baseline and every 6-12 months.
+ - Lithium: renal function, TSH, calcium, level (5-7 days after dose change), pregnancy status.
+ - Valproate/carbamazepine/lamotrigine: CBC, LFTs, levels as appropriate; rash counseling with lamotrigine.
+ - QTc-prolonging agents: baseline ECG when indicated.
+ - Stimulants: BP, HR, weight, PDMP, misuse screen.
+Psychotherapy/behavioral: {Referral for therapy (CBT/DBT/ERP/trauma-focused/family)/Established with ***/Declined:***}
+Substance use: {Counseled on reduction/abstinence; referral to ***/Not applicable:***}
+Higher level of care considered: {Not indicated/***}
+Coordination of care: {PCP letter sent/Records requested from ***/ROI signed for ***:***} Patient encouraged to follow up with PCP for coordination of care and to remain adherent to medications managed by PCP as listed above.
+Supportive psychotherapy provided, emphasizing healthy lifestyle goals (sleep, exercise, nutrition, reduction of alcohol/substances) and stress management.
+Patient instructed not to operate a motor vehicle or heavy machinery if sedated or under the influence of illicit substances including marijuana, alcohol, or prescription medications.
+Crisis resources: Patient advised to call or text 988 (Suicide and Crisis Lifeline), call 911, or present to the nearest emergency department/crisis unit for suicidal thoughts, thoughts of harming others, or any emergency.
+Follow-up: {2 weeks/4 weeks/6 weeks/8 weeks/***} for ***.
+
+MEDICATION EDUCATION AND INFORMED CONSENT
+Medication-specific counseling (complete for each medication started or changed):
+Medication(s): ***
+ - Indication/off-label use disclosed: {On-label/Off-label use explained:***}
+ - I have discussed with the patient the risks/benefits/side effect profile of medications, including but not limited to: {DCPsychSideEffects:28211}. Discussed documentation provided on medlineplus.gov for the above medication(s) and discussed risk and benefits of said medication(s) as well as potential side effects as outlined in the documentation. Instructed patient to discontinue the medication if side effects onset and are not tolerated and to call the office for non-emergencies.
+ - Alternatives discussed, including psychotherapy, other medications, and no treatment, with the risks of each: ***
+ - Expected onset, duration, and the importance of not stopping abruptly (discontinuation syndrome/rebound): ***
+ - Boxed warnings reviewed when applicable:
+   {Antidepressants: increased risk of suicidal thoughts and behaviors in children, adolescents, and young adults; report new or worsening agitation, irritability, or suicidality.
+   Antipsychotics: increased mortality in elderly patients with dementia-related psychosis; clozapine: neutropenia, orthostasis, seizures, myocarditis, constipation (REMS/ANC monitoring).
+   Lamotrigine: serious rash including SJS/TEN.
+   Carbamazepine: SJS/TEN with HLA-B*1502, aplastic anemia.
+   Valproate: hepatotoxicity, pancreatitis, teratogenicity.
+   Lithium: toxicity; narrow therapeutic index.
+   Benzodiazepines: concomitant opioid use, abuse/misuse/addiction, dependence and withdrawal.
+   Stimulants: high potential for abuse and misuse.
+   Bupropion: seizure risk; Atomoxetine: suicidality.:***}
+ - Serotonin syndrome, hyponatremia, bleeding risk, sexual side effects, weight/metabolic effects, sedation, EPS/tardive dyskinesia, QTc effects, and drug interactions reviewed as applicable: ***
+ - Alcohol and substance interactions reviewed: ***
+ - Reproductive counseling (pregnancy, breastfeeding, contraception, teratogenicity, effective contraception on valproate/topiramate/others): {Not applicable/Discussed:***}
+ - Patient verbalized understanding, had opportunity to ask questions, and consents to the proposed treatment. Patient was informed that consent may be withdrawn at any time.
+ - Dose above recognized psychiatric standards: ***   More than two medications in the same category: ***
+ - Controlled substance counseling (if applicable): Risks of dependence, tolerance, misuse, diversion, and overdose; safe storage and disposal; no early refills or replacements for lost medication; PDMP checked; controlled substance agreement {signed/reviewed/not applicable:***}.
+ - Driving/operating machinery warning given. Patient advised to avoid alcohol and non-prescribed substances while on medication.
+
+Counseled patient about:
+ - Discussed the risks and benefits of proposed and current treatment options as well as encouraged the patient to remain adherent to their current treatment regimen and recommendations.
+ - Explained the need and advised the patient to call the office if any questions or concerns arise as well as for non-emergencies.
+ - Explained the need and advised the patient to call 911 or present to the crisis unit if feeling suicidal or with thoughts of harming themselves or others.
+ - All questions answered; patient acknowledged verbal understanding and agrees with the above stated plan and counseling.
+
+CONSENT AND PRACTICE POLICY DISCUSSION (initial visit)
+ - Nature of the evaluation and treatment relationship explained. Confidentiality and its limits reviewed (imminent danger to self or others, suspected abuse or neglect of a child/elder/dependent adult, court order, and other legal requirements per state law). Privacy practices (HIPAA Notice of Privacy Practices): {provided/acknowledged:***}.
+ - Release(s) of information: {None/Signed for ***:***}
+ - Office policies reviewed: after-hours/emergency coverage, refill and appointment policy, cancellation/no-show policy, telehealth policy, electronic communication (portal) and its limits: {Reviewed/***}.
+ - Patient voluntary participation confirmed; patient informed that they may seek a second opinion or decline treatment.
+ - Interpreter used: {No/Yes, ***:***}
+ - Capacity to consent: {Patient demonstrates capacity to consent to treatment/***}.
+ - Guardian/parent consent (if minor or patient under guardianship): ***
+
+CHARGE CAPTURE (select per payer; verify with coding/compliance)
+ {90792 psychiatric diagnostic evaluation with medical services/99202-99205 new-patient E/M by time or MDM/+90833, +90836, +90838 psychotherapy add-on with E/M (time must be separate from E/M)/+90785 interactive complexity (if applicable)/+99417 or G2212 prolonged service (if criteria met):***}
+ Billing diagnosis codes linked: ***
+
+TIME ALLOCATION
+ Face-to-face time with patient: *** minutes   Psychotherapy time (if billed, separate from E/M): *** minutes
+ Total treatment time on date of service: *** minutes, which includes same-day chart review, documentation, treatment planning, ordering, and coordination of care.
+
+@ME@
+@TD@
+
+This note was generated using the Dragon speech recognition system and may contain inherent errors or omissions not intended by the user. Grammatical errors, random word insertions, substitutions, deletions, pronoun errors, and incomplete sentences are an occasional consequence of this technology due to software limitations. Prior to signing the note, I reviewed it for misspellings or errors related to dictation to a reasonable extent, although it is possible that not all errors are caught or corrected. If there are questions or concerns with the content of this note or information contained within the body of this dictation, they should be addressed directly with the author for clarification.
