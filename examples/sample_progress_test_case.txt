@@ -1,6 +1,6 @@
 FICTIONAL TEST CASE — NOT A REAL PATIENT
 Use this to test the Progress/Follow-up prompt in any LLM before using it with real patients.
-How to use: copy everything in prompts/2_Progress_FollowUp_Master_Prompt.txt into the LLM, then paste everything BELOW the dashed line here right after it, and send. (The prompt's own empty fields at the bottom can stay; the LLM uses the filled ones.) Then compare the LLM's output to examples/sample_progress_expected_behavior.txt.
+How to use: copy everything in prompts/2_Progress_FollowUp_Master_Prompt.txt (or the "-SHORT VERSION" file) into the LLM, then paste everything BELOW the dashed line here right after it, and send. (The prompt's own empty fields at the bottom can stay; the LLM uses the filled ones.) Then compare the LLM's output to examples/sample_progress_expected_behavior.txt.
 ------------------------------------------------------------------------
 NOTE DATE (optional): 10/29/2026
 

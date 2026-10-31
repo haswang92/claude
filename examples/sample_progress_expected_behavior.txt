@@ -4,7 +4,8 @@ WHAT A CORRECT RESULT SHOULD LOOK LIKE — for examples/sample_progress_test_cas
 Wording will vary between LLMs. Check the BEHAVIOR, item by item.
 
 TEMPLATE FIDELITY
-[ ] Output starts with "===== BEGIN NOTE =====" and ends with the Review List. Nothing else.
+[ ] The note appears inside one code box (gray box with a Copy button), starting with "===== BEGIN NOTE =====" and ending with "===== END NOTE =====". The Review List is below the box. Nothing else.
+[ ] Every *** shows as three asterisks inside the box, not as a horizontal line or bold text. Copy the box and paste it into a plain text editor to check that the *** and [ ] marks survived.
 [ ] Every heading and label appears exactly as in the template, in the same order (e.g., "INTERVAL HISTORY:", "SAFETY:", "Insight/Judgment:"). No added sections, titles, or signature lines.
 [ ] No markdown added (no **bold**, no # headings).
 [ ] @NAME@, @DOB@, @VS@, and @MEDS@ are still there, untouched. The meds and vitals were NOT typed out under those codes.
