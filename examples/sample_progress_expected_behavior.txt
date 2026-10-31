@@ -1,0 +1,41 @@
+WHAT A CORRECT RESULT SHOULD LOOK LIKE — for examples/sample_progress_test_case.txt
+(Do NOT paste this file into the LLM. Use it to check the LLM's answer.)
+
+Wording will vary between LLMs. Check the BEHAVIOR, item by item.
+
+TEMPLATE FIDELITY
+[ ] Output starts with "===== BEGIN NOTE =====" and ends with the Review List. Nothing else.
+[ ] Every heading and label appears exactly as in the template, in the same order (e.g., "INTERVAL HISTORY:", "SAFETY:", "Insight/Judgment:"). No added sections, titles, or signature lines.
+[ ] No markdown added (no **bold**, no # headings).
+[ ] @NAME@, @DOB@, @VS@, and @MEDS@ are still there, untouched. The meds and vitals were NOT typed out under those codes.
+[ ] Date of visit: 10/29/2026
+
+DATES AND RELEVANCE
+[ ] The 2012 college counseling episode (adjustment disorder) does NOT appear anywhere in the note or the Review List. It is old and irrelevant to the current presentation.
+[ ] "History of suicide attempts" contains the 03/2023 intentional acetaminophen overdose (~10 g), anchored in time. This is old but enduring history, so it belongs.
+[ ] The passive SI from the 03/28/2023 discharge MSE does NOT appear as current. Current SI = "no" (from the 10/29/2026 visit).
+[ ] No MSE findings from the 08/20/2026 note (e.g., "constricted," "down") appear in today's MSE.
+[ ] Prior PHQ-9: 14, with its date (08/20/2026).
+
+FILLING FIELDS
+[ ] MEDICATION ADHERENCE: the pick list braces are gone and an option is written (most likely "partial," because ~3 doses were missed). This choice is listed in the Review List as a judgment call.
+[ ] SIDE EFFECTS: mild nausea for ~1 week after the dose increase, now resolved.
+[ ] PHQ-9 today: 8
+[ ] Current SI: no. Current HI: no. (Braces removed.)
+[ ] Access to firearms: *** (not documented anywhere). NOT "denies" or "none."
+[ ] Mood checkboxes: the patient said "better," which matches none of the options exactly. Best result: all boxes left unmarked with *** at the end of the line, and a mention in the Review List. Acceptable: "euthymic" marked, AND the Review List says this was an assumption. Wrong: "euthymic" marked with no mention.
+[ ] Appearance, behavior, speech, affect, thought process, thought content, perception, and insight/judgment are filled from the 10/29/2026 dictation only.
+[ ] ASSESSMENT: the bracketed instruction is replaced with a short synthesis: improved since the sertraline increase on 08/20/2026 (PHQ-9 14 → 8, sleep ~4 → ~7 hrs, back to work full time). Uses the documented diagnosis (MDD, recurrent). No new diagnoses, no new medication ideas.
+[ ] PLAN 1: continue sertraline 150 mg daily and aripiprazole 5 mg daily (as dictated).
+[ ] PLAN 2 (Labs): ***   PLAN 3 (Therapy): ***   (nothing documented)
+[ ] PLAN 4: return in 6 weeks.
+
+REVIEW LIST SHOULD INCLUDE
+[ ] Reference date 10/29/2026 (from NOTE DATE).
+[ ] Conflict: aripiprazole 5 mg (visit note/plan) vs. 2 mg tablets on the 10/15/2026 pharmacy list.
+[ ] Older information used: the 03/2023 suicide attempt (from the 03/28/2023 discharge summary) and the prior PHQ-9 (08/20/2026).
+[ ] Missing safety-critical item: access to firearms / lethal means.
+[ ] Judgment calls: the adherence choice (and the mood checkbox, if one was marked).
+[ ] Optional but good: the outside record shows only a "Received/Scanned" date. (It is acceptable for the Review List to leave this out, since the document was irrelevant.)
+
+If the LLM fails several of these items, try a different LLM, or paste the prompt into the tool's "system"/"custom instructions" box and the template + documents into the chat.
