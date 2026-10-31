@@ -1,0 +1,89 @@
+FICTIONAL TEST CASE — NOT A REAL PATIENT
+Use this to test the Progress/Follow-up prompt in any LLM before using it with real patients.
+How to use: attach prompts/2_Progress_FollowUp_Master_Prompt.txt (or the "-SHORT VERSION" file) to the chat, or paste its text. Then paste everything BELOW the dashed line here into the message, and send. This test sets NOTE DATE to 10/29/2026; with real patients you can leave the date out and today's date is used. Then compare the LLM's output to examples/sample_progress_expected_behavior.txt.
+------------------------------------------------------------------------
+NOTE DATE (optional): 10/29/2026
+
+SITE (optional): Sample Outpatient Psychiatry Clinic (fictional)
+
+EXTRA SITE INSTRUCTIONS (optional):
+
+TEMPLATE:
+OUTPATIENT PSYCHIATRY FOLLOW-UP
+Patient: @NAME@   DOB: @DOB@   Date of visit: ***
+
+INTERVAL HISTORY:
+***
+
+MEDICATION ADHERENCE: {Adherence: full/partial/poor}
+SIDE EFFECTS: ***
+PHQ-9 today: ***   Prior PHQ-9: ***
+
+SAFETY:
+Current SI: {yes/no}
+Current HI: {yes/no}
+Access to firearms: ***
+History of suicide attempts: ***
+
+VITALS: @VS@
+
+MENTAL STATUS EXAM:
+Appearance: ***
+Behavior: ***
+Speech: ***
+Mood: [ ] euthymic [ ] depressed [ ] anxious [ ] irritable
+Affect: ***
+Thought process: ***
+Thought content: ***
+Perception: ***
+Insight/Judgment: ***
+
+CURRENT MEDICATIONS:
+@MEDS@
+
+ASSESSMENT:
+[summarize response to treatment since last visit]
+
+PLAN:
+1. Medications: ***
+2. Labs: ***
+3. Therapy: ***
+4. Follow-up: ***
+
+
+DOCUMENTS:
+
+--- Document ---
+SCANNED OUTSIDE RECORDS — Received/Scanned: 05/02/2021
+University Counseling Center summary for Jordan Testpatient.
+Seen fall semester 2012 for adjustment disorder with anxious mood after a breakup. Six sessions of supportive counseling. Symptoms resolved. No medications. No safety concerns. Discharged from counseling 12/2012.
+
+--- Document ---
+INPATIENT PSYCHIATRY DISCHARGE SUMMARY
+Admission: 03/10/2023   Discharge: 03/28/2023
+Patient: Jordan Testpatient
+Reason for admission: Major depressive disorder, severe, with psychotic features, after intentional overdose of acetaminophen (~10 g) on 03/09/2023. Medically cleared after NAC.
+Past medication trials: Escitalopram 20 mg daily for ~10 weeks in 2022, no response, stopped by outpatient provider.
+Hospital course: Started sertraline, titrated to 100 mg daily; aripiprazole 5 mg added 03/15/2023 for psychotic features. Mood and psychosis improved.
+Discharge MSE: Mood "a little better." Affect constricted. Endorses passive SI without plan or intent. No AVH.
+Discharge medications: Sertraline 100 mg daily; aripiprazole 5 mg daily.
+
+--- Document ---
+OUTPATIENT PSYCHIATRY FOLLOW-UP — Date of service: 08/20/2026
+Patient: Jordan Testpatient
+Interval: Pt reports ongoing low mood, poor sleep (~4 hrs/night), low energy. Taking meds daily. No SI/HI.
+PHQ-9: 14.
+MSE: Casually dressed, cooperative, normal rate speech. Mood "down." Affect constricted. Thought process linear. No SI/HI. No AVH. Insight and judgment fair.
+Assessment: MDD, recurrent, moderate, partial response.
+Plan: Increase sertraline from 100 mg to 150 mg daily. Continue aripiprazole 5 mg daily. If no response by next visit, consider switching antidepressant. Follow up in 8 weeks.
+
+--- Document ---
+PHARMACY MEDICATION LIST — Printed 10/15/2026
+Sertraline 50 mg tablet: take 3 tablets (150 mg) by mouth daily
+Aripiprazole 2 mg tablet: take 1 tablet by mouth daily
+
+--- Document ---
+CLINICIAN VISIT NOTES (dictation) — 10/29/2026
+Jordan here for follow-up. Says mood is "much better, maybe 7 out of 10." Sleeping about 7 hours. Back to work full time. Missed about 3 doses of sertraline last month when traveling. Had mild nausea for the first week after the dose increase, now resolved. PHQ-9 today 8. Denies SI. Denies HI.
+MSE: well groomed, good eye contact, speech normal rate and volume, mood "better," affect brighter and reactive, thoughts linear and goal directed, no SI/HI, no AVH, insight and judgment good.
+Plan: continue sertraline 150 mg daily, continue aripiprazole 5 mg daily. Return in 6 weeks.

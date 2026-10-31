@@ -1,0 +1,60 @@
+PSYCHIATRIC NOTE PROMPTS - START HERE
+=====================================
+
+WHAT THIS IS
+Three reusable prompts (H&P, progress/follow-up, discharge). You give one to
+an AI tool along with your site's note template and the patient's records.
+The AI returns a draft note that follows your template exactly, puts *** where
+the records have no information, and uses document dates to decide what is
+current and what is relevant history.
+
+WHAT IS IN THIS FOLDER
+  1_HP/                 H&P / initial evaluation prompts
+  2_Progress_FollowUp/  Progress and follow-up note prompts (inpatient daily,
+                        outpatient med management, psychotherapy add-on, C-L)
+  3_Discharge/          Discharge summary prompts
+  Test_Case/            A FICTIONAL patient to test any AI tool before real use
+  Full_Guide.txt        Detailed instructions, upload tips, notes on each tool
+                        (symbols like ** and | in it are just formatting marks)
+
+Each prompt folder has two files:
+  *_Master_Prompt.txt                 FULL version (most detailed, ~23,000+ characters)
+  *_Master_Prompt-SHORT VERSION.txt   SHORT version (~5,500 characters) for tools
+                                      that reject or cut off long input
+
+HOW TO USE (every time) - FASTEST WAY
+  1. ATTACH the prompt file for the note type to the chat.
+  2. In the message box, paste the site TEMPLATE, then ALL the relevant
+     records below it. No labels or extra instructions are needed.
+  3. Send.
+  4. The note appears in a gray box with a Copy button. Copy it, review it
+     against the Review List shown below the box, then paste into the chart.
+     Do not paste the Review List into the chart.
+
+  The note is automatically dated TODAY (the day you generate it). To use a
+  different date, type at the top of your message:  NOTE DATE: 10/30/2026
+
+IF ATTACHING DOESN'T WORK WELL
+  Signs: no gray box, no Review List, a summary of the prompt instead of a
+  note, "denies"/"WNL" instead of ***, or changed headings.
+  Fix: open the prompt file, copy all of its text, paste it into the chat,
+  then paste the template and records below it, and send. If it still
+  struggles, try the SHORT VERSION (or the full one) or a different tool.
+
+IF THE MESSAGE IS TOO LONG
+  Use the SHORT VERSION, or send in parts. Label each message "PART 1 of 3",
+  "PART 2 of 3", "PART 3 of 3". The AI replies "Received part X of 3." until
+  the last part arrives, then writes the note.
+
+BEFORE YOU USE IT ON REAL PATIENTS
+  Try Test_Case/sample_progress_test_case.txt in each AI tool you use, then
+  compare the result with Test_Case/sample_progress_expected_behavior.txt.
+
+IMPORTANT CAUTIONS
+  - Only paste real patient information into tools your institution has
+    approved for patient data (with a Business Associate Agreement). Otherwise
+    remove identifying details first. Use only the enterprise version of
+    Microsoft Copilot, not the free consumer version.
+  - The note is a DRAFT. You are the author. Check every line against the
+    records before signing, especially medications, doses, allergies, legal
+    status, risk assessment, and the note date.
